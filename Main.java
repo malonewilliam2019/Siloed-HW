@@ -40,9 +40,7 @@ public class Main {
 
         float sav=vol/(days*pop);
 
-        float savgal=sav*264.2f;
-
         System.out.println("the average savings per person per day is");
-        System.out.printf("%.2f %10s",savgal,"Gallons");
+        System.out.printf("%.3f %10s",sav,"Cubic Meters");
     }
 }
